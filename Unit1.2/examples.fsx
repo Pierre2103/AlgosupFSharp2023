@@ -87,7 +87,7 @@ let name = "Robert"
 
 let numberOfCharacters = name.Length
 
-let containsR = name.Contains("R")
+let containsO = name.Contains("o")
 
 let blockCaps = name.ToUpper()
 

@@ -4,10 +4,10 @@ open NUnit.Framework
 
 module ExercisesDay1 =
 
-    [<Ignore("Not implemented");Test>]
+    [<Test>]
     let AssertExpectation() =
         let expectedValue = 1 + 1
-        let actualValue = __ //start by changing this line
+        let actualValue = 2
 
         AssertEquality expectedValue actualValue
 
