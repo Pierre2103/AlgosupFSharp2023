@@ -278,7 +278,7 @@ module ExercisesDay1 =
         let initialValue = "Encode me!" |> List.ofSeq
 
         let encoder (l: list<char>) =
-            l |> List.map (fun x -> 
+            l |> List.map (fun (x: char) -> 
                 if char x >= 'a' && char x <= 'm' then
                     char (int x + 13 )|> char |> char |> char
                 elif char x >= 'n' && char x <= 'z' then
